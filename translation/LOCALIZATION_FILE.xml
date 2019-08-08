@@ -42,3 +42,489 @@ Login									-	přezdívka
 Change password							-	Změnit heslo
 © KoPlac 2019. All rights reserved.		-	© KoPlac 2019. Všechna práva vyhrazena.
 Designed by Freepik						-	Navrhl Freepik
+
+
+	***	how.much.html.twig ***
+	
+How many questions do you want to add to a survey -
+
+	***	admin/index.html.twig ***
+	
+Admin Menu
+List of the surveys
+See survey in periods
+Insert teachers with a CSV
+Insert students with a CSV
+Create a new survey
+Delete a Survey
+Modify a Survey
+Log Out from the System
+
+	***	admin/modify.finish.html.twig ***
+	
+Surveys
+ID
+CLASSROOM
+DATE
+UPDATED
+at
+Modify
+There is no survey for this school !
+
+	***	admin/modify.html.twig ***
+	
+Modify Page
+Please select surveys you want to modify: - Vyberte průzkumy, které chcete upravit
+Select a Survey   -   Vyberte průzkum
+
+	***	admin/new.survey.html.twig ***
+	
+Create a new survey for
+Select the classroom concerned
+Do you want to create a survey automatically
+Yes
+No
+Submit
+
+	***	admin/pagedelete.html.twig ***
+	
+Delete
+Page to delete
+Press
+
+	***	admin/questioncreating.html.twig ***
+	
+Classroom
+Teacher
+Subject
+How many questions
+Please write below questions you want to ask
+Question
+Add more variants
+Answer variants
+Answer
+Value
+Choose a question type
+Multiple answers
+Unique answers
+Do you want to add a comment section to a survey
+Yes
+add a comment section
+No
+not necessary
+Comment section
+Send All
+Saved successfully
+
+	***	admin/survey.creation.html.twig ***
+	
+Saved successfully
+
+	***	admin/survey.home.html.twig ***
+	
+Create a new survey
+Surveys
+Survey id
+Class
+Creation date
+Updated
+Delete All
+at
+Modify
+Delete
+Send
+Uncompleted
+Sended
+There is no survey for this school
+
+	***	admin/survey.page.create.select.subject.html.twig ***
+	
+Select the subject of the teacher
+Submit
+
+	***	admin/page.create.select.teacher.html.twig ***
+	
+Select the teacher concerned by this page
+Submit
+
+	***	admin/survey.page.home.html.twig ***
+	
+Pages
+Page id
+Teacher
+Subject
+State
+Details
+Delete
+
+	***	admin/survey.send.html.twig ***
+	
+The survey has been sended to the classroom - Průzkum byl poslán do učebny
+anonymous survey list - seznam anonymních průzkumů
+id - id
+password - Heslo
+in - v
+return - vrátit se
+
+	***	anonymousid/page.mark.html.twig ***
+	
+Anonymous Id - Anonymní Id
+Page id - ID stránky
+Teacher - Učitel
+Mark - Označit
+Response -  Odezva
+Value - Hodnota
+User response - Reakce uživatele
+in - v
+
+	***	insert_exel_data/insert.student.html.twig ***
+	
+Add new Students - Přidat nové studenty
+Add a CSV file to upload - přidat soubor CSV k nahrání
+Submit - Předložit
+
+	***	insert_exel_data/insert.student.submit.html.twig ***
+	
+Student list is added - Seznam studentů je přidán
+
+	***	insert_exel_data/insert.teacher.html.twig ***
+	
+Add new Teacher - Přidat nového učitele
+Add a CSV file to upload - Chcete-li nahrát, přidejte soubor CSV
+Submit - Předložit
+
+	***	insert_exel_data/insert.teacher.submit.html.twig ***
+	
+Teachers list is added - Seznam učitelů je přidán
+
+	***	page/delete.html.twig ***
+	
+The question have been deleted - Otázka byla odstraněna
+
+	***	page/show.html.twig ***
+	
+page id - id stránky
+Question id - ID otázky
+Question text - Text otázky
+Question type - Typ otázky
+modify - upravit
+Delete - Odstranit
+Show Responses - Zobrazit odpovědi
+There are no questions for this page - Na tuto stránku nejsou žádné dotazy
+Add questions - Přidat otázky
+return to the survey details - návrat k podrobnostem průzkumu
+
+	***	question/create.html.twig ***
+	
+Fill up the form to create / update a question - Vyplňte formulář pro vytvoření / aktualizujte otázku
+Submit - Předložit
+
+	***	question/show.html.twig ***
+	
+question n° - otázka n°
+Response id - ID odpovědi
+Response text - Text odpovědi
+value - hodnota
+More details  - Více informací
+Update - Aktualizace
+Delete - Odstranit
+Add More response - Přidat další odpověď
+Return to the page details - Vraťte se na podrobnosti stránky
+
+	***	question_standard/show.response.html.twig ***
+	
+Text - Text
+Value - Hodnota
+in - v
+Return - Vrátit se
+
+	***	response/create.html.twig ***
+	
+Fill up the form to create / update a response - Vyplňte formulář pro vytvoření / aktualizujte odpověď
+Submit - Předložit
+
+	***	response/delete.html.twig ***
+	
+The response have been deleted - Odpověď byla vymazána
+Return to the question details - Návrat k podrobnostem otázky
+
+	***	response/show.html.twig ***
+	
+response n°
+Return to the question details - Návrat k podrobnostem otázky
+
+	***	security/change.password.html.twig ***
+	
+Change Password   - Změnit heslo
+Password Validation - Ověření hesla
+Try to submit the form - Zkuste odeslat formulář
+Email - E-mailem
+New password -  Nové heslo
+"Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" - Musí obsahovat alespoň jedno číslo a jedno velké a malé písmeno a alespoň 8 nebo více znaků
+Repeat new password - opakujte nové heslo
+"Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" - Musí obsahovat alespoň jedno číslo a jedno velké a malé písmeno a alespoň 8 nebo více znaků
+Password must contain the following - Heslo musí obsahovat následující
+lowercase - malá písmena
+letter - dopis
+capital (uppercase) - velké písmeno
+number -  číslo
+Minimum - minimální
+8 characters -  znaky
+Same - stejný
+password - Heslo
+
+	***	security/contact.html.twig ***
+	
+Contact Us - Kontaktujte nás
+Swing by for a cup of coffee, or leave us a message - Houpejte se na šálek kávy, nebo zanechte nám zprávu
+First Name - jméno
+Your name - tvé jméno
+Last Name - příjmení
+Your last name - tvoje příjmení
+Country - Země
+Australia - Austrálie
+Canada - Kanada
+USA - Spojené státy americké
+Czech -   čeština
+Spain - Španělsko
+Finland - Finsko
+Sweden - Švédsko
+Estonia - Estonsko
+Lithuania - Litva
+Russia - Rusko
+China - Čína
+Subject - Předmět
+Write something - Něco napsat
+
+	***	login.html.twig ***
+	
+Connection - Spojení
+Email - E-mailem
+Password - Heslo
+Connection - Spojení
+Sign In - Přihlásit se
+Change password - Změnit heslo
+Footer - Zápatí
+
+	***	security/regitration.getschool.html.twig ***
+	
+Registration as a User - Registrace jako uživatel
+Submit - Předložit
+
+	***	security/regitration.html.twig ***
+	
+Registration as a User - Registrace jako uživatel
+Admin - Admin
+Super Admin - Super Admin
+Sign In - Přihlásit se
+
+	***	security/regitration.menu.html.twig ***
+	
+Which type of user you want to add - Kterého typu uživatele chcete přidat
+Student - studentka
+Teacher - Učitel
+Admin - Admin
+
+	***	security/regitration.student.classes.html.twig ***
+	
+Choose your class room - Vyberte si svou třídu
+Submit - Předložit
+
+	***	security/regitration.student.finish.twig ***
+	
+student is registered in the database - student je registrován v databázi
+Return - Vrátit se
+
+	***	security/regitration.student.html.twig ***
+	
+Submit - Předložit
+
+	***	security/regitration.teacher.html.twig ***
+	
+Sign In - Přihlásit se
+
+	***	sheet/anonymousId.list.html.twig ***
+	
+Anonymous Id list
+download the list of anonymousId
+Class
+Survey
+Id
+Password
+Valid
+
+	***	sheet/create.page.html.twig ***
+	
+Question - Otázka
+Text - Text
+Type of question - Typ otázky
+Checkbox - Zaškrtávací políčko
+Radio - Rádio
+Response - Odezva
+
+	***	sheet/delete.all.html.twig ***
+	
+Survey has been deleted from school - Průzkum byl ze školy odstraněn
+The survey was correctly deleted - Průzkum byl správně vymazán
+Return - Vrátit se
+
+	***	sheet/preview.html.twig ***
+	
+Page - Stránka
+
+	***	sheet/survey.list.html.twig ***
+	
+Select the period you need to display the list of surveys - Vyberte období, které potřebujete k zobrazení seznamu průzkumů
+List of Surveys between - Seznam průzkumů mezi
+and - a
+Id - Id
+Title - Titul
+Creation date - Datum vzniku
+Update date - Datum aktualizace
+Classes - Třídy
+Sendable - Poslat -------------------------------------------------------------------------------------
+Sended - Odesláno
+at - v
+
+	***	sheet/survey.show.one.html.twig ***
+	
+Creation date - Datum vzniku
+List of pages - Seznam stránek
+id - Id
+teacher - učitel
+in - v
+
+	***	student/anonymous.login.html.twig ***
+	
+Connect you with the login and the password you have recieved in classe to fill up the survey - Připojte se pomocí přihlašovacího jména a hesla, které jste obdrželi ve třídách, abyste vyplnili průzkum
+Submit - Předložit
+
+	***	student/error.page.html.twig ***
+	
+An error occurred when the survey was being filled up - Při vyplňování průzkumu došlo k chybě
+
+	***	student/index.html.twig ***
+	
+Student - Student
+student's school - Studentská škola
+student's class - Studentská třída
+There are not any survey - Neexistují žádné průzkumy
+You have - ty máš
+surveys to complete - průzkumy dokončit
+Survey id - ID průzkumu
+Survey title - Název průzkumu
+State - Stát
+Fill up a survey - Vyplňte průzkum
+
+	***	student/page.show.html.twig ***
+	
+Teacher - Učitel
+Subject - Předmět
+Question - Otázka
+Please write your feedback - Napište prosím svůj názor
+comment - komentář
+
+	***	student/survey.choose.teacher.html.twig ***
+	
+Choose the Teacher you want to evaluate - Vyberte Učitele, kterého chcete hodnotit
+Submit - Předložit
+
+	***	student/survey.finished.html.twig ***
+	
+Success - Úspěch
+This alert box could indicate a successful or positive action - Toto výstražné pole může znamenat úspěšnost nebo pozitivní akce
+An error occurred during the validation of the data - Při ověřování dat došlo k chybě
+Return - Vrátit se
+
+	***	superadmin/create.school.html.twig ***
+	
+Success - Úspěch
+the school has been added to the database - škola byla přidána do databáze -
+return - Vrátit se
+
+	***	superadmin/index.html.twig ***
+	
+Insert a new School - Vložte novou školu
+Insert new Classes - Vložte nové třídy
+Insert Teachers - Vložte učitele
+Insert Subject - Vložte předmět
+Insert Subject List (CSV) - Vložit seznam předmětů (CSV)
+
+	***	superadmin/insert.classes.finish.html.twig ***
+	
+You have finished to insert new classes
+
+	***	superadmin/insert.classes.html.twig ***
+	
+Select the school where you want to add classes
+Submit
+
+	***	superadmin/insert.list.subject.finish.html.twig ***
+	
+The subjects have been saved in the data base
+
+	***	superadmin/insert.list.subject.html.twig ***
+	
+Add a CSV file to upload
+Select the school where you want to add the subjects
+
+	***	superadmin/insert.subject.html.twig ***
+	
+Create
+
+	***	superadmin/insert.teachers.finish.html.twig ***
+	
+You have finished to insert new teachers.
+
+	***	superadmin/insert.teachers.html.twig ***
+	
+Add a CSV file to upload
+Select the school where you want to add the teachers
+
+	***	teacher/index.html.twig ***
+	
+Your mark - Vaše známka
+users have given you a feedback - uživatelé vám poskytli zpětnou vazbu
+Send Results to E-mail - Odeslat výsledky na e-mail
+Export Info as a PDF doc -  Exportovat informace jako dokument PDF
+Export Graphics as a PDF doc - Export grafiky ve formátu PDF doc
+Log Out from the System - Odhlaste se ze systému
+Teacher Information - Informace pro učitele
+Teacher - Učitel
+Subject - Předmět
+Group - Skupina
+Classes - Třídy
+School - Škola
+E-mails - E-maily
+Last Comment - Poslední komentář
+Comment - Komentář
+Show All Comments - Zobrazit všechny komentáře
+Show Other Teachers Graphic - Zobrazit grafiku ostatních učitelů
+Show Your Grades Graphic - Zobrazit grafiku vašich stupňů
+
+	***	teacher/pre.index.form.html.twig ***
+	
+List of survey you have - Seznam průzkumu, který máte
+Survey - Průzkum
+Class - Třída
+Subject - Předmět
+Select - Vybrat
+
+	***	teacher/school.satisfyiing.html.twig ***
+	
+Page for School Ratings - Stránka pro hodnocení školy
+ID - ID
+School name - Školní jméno
+Teacher marks - Učitelské známky
+TOTAL - CELKOVÝ
+Show Satisfying Graph - Zobrazit uspokojivý graf
+
+	***	teacher/stats.details.html.twig ***
+	
+Comment section - Sekce komentářů
+Comment Sorter - Komentář Sorter
+Sort comments by class - Seřadit komentáře podle třídy
+Sort Comments by Class - Seřadit komentáře podle třídy
+Sort comments by subject - Seřadit komentáře podle předmětu
+Sort Comments by Subject - Seřadit komentáře podle předmětu
+Comment - Komentář
