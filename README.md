@@ -12,3 +12,7 @@ http://kes.koplac.cz/
  ```
  git clone https://github.com/rengetsu/GuestPage.git
  ```
+ 
+ ### Preview Screenshot
+
+![GitHub Logo](https://i.ibb.co/G7gnNqH/guest-page-preview.png)
